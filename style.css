@@ -1,20 +1,18 @@
 body{
-    margin: 0; 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
 }
 .hero{
    height: 100vh;
    background: url(img/hero.jpg) center;
    background-size: cover;
-  
-}
-
-.hero-content{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
 }
 h1{
+    margin: 0;
    background-color: chartreuse;
     color: red;
     font-size: 50px;
@@ -128,10 +126,6 @@ footer{
 @media (max-width: 480px) {
     .container{
         grid-template-columns: 1fr;
-    }
-    .hero{
-     
-        width: 100%;
     }
     .card{
         width: 100%;
