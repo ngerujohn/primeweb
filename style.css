@@ -1,0 +1,142 @@
+body{
+    margin: 0; 
+}
+.hero{
+   height: 100vh;
+   background: url(img/hero.jpg) center;
+   background-size: cover;
+  
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+   background-color: chartreuse;
+    color: red;
+    font-size: 50px;
+    border-radius: 15px;
+}
+
+.btn{
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: aqua;
+    border-radius: 5px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+   
+}
+h2{
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 8px;
+    background-color: rgb(157, 95, 160);
+}
+.card{
+    background-color:aqua;
+    color: black;
+    border-radius: 5px;
+    
+    
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.image{
+    height: 300px;
+    width: 500px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 0%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+    
+   
+}
+form label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input,
+form textarea{
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: darkblue;
+}
+.jon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   margin: 0;
+  
+}
+.button{
+    background-color: yellow;
+    color: black;
+    padding: 15px 40px;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+   border-radius: 15px;
+}
+.button:hover{
+    background-color: chartreuse;
+    border-radius: 30px;
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 480px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .hero{
+        height: auto;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .image{
+        width: 95%;
+    }
+}
