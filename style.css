@@ -130,7 +130,7 @@ footer{
         grid-template-columns: 1fr;
     }
     .hero{
-        height: auto;
+     
         width: 100%;
     }
     .card{
